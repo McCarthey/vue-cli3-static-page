@@ -1,28 +1,33 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <luxy-header></luxy-header>
+    <luxy-footer></luxy-footer>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import LuxyHeader from '../../components/luxy-header/LuxyHeader.vue'
+import LuxyFooter from '../../components/luxy-footer/LuxyFooter.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    LuxyFooter,
+    LuxyHeader
   }
 }
 </script>
 
 <style lang="scss">
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
