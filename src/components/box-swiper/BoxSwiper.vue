@@ -8,9 +8,11 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide"
           v-for="(item,index) in swiperList">
-          <div :style="{background:'url('+item.img+') no-repeat 0/cover'}"
-            class="swiper-slide-img"></div>
-          <p class="swiper-slide-title">{{ item.title }}</p>
+          <a :href="item.link">
+            <div :style="{background:'url('+item.img+') no-repeat 0/cover'}"
+              class="swiper-slide-img"></div>
+            <p class="swiper-slide-title">{{ item.title }}</p>
+          </a>
         </div>
       </div>
     </div>
@@ -81,7 +83,7 @@
           autoplay: false,
           slidesPerView: 3,
           spaceBetween: 28,
-          loop: false,
+          loop: true,
           navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
@@ -128,7 +130,11 @@
         .swiper-slide {
           width: 300px;
           height: 300px;
-          box-shadow: 0 8px 20px 0 rgba(224, 224, 224, 0.5);
+		  box-shadow: 0 8px 20px 0 rgba(224, 224, 224, 0.5);
+		  a {
+			  display: block;
+			  height: 100%;
+		  }
           cursor: pointer;
           .swiper-slide-img {
             width: 300px;

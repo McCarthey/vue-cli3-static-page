@@ -11,7 +11,7 @@ const bannerText = 'Luxy Brings Elite and Attractive Singles Who Share the Same 
 export default {
 	GLOBAL: {
 		name: 'global',
-		link: '',
+		link: 'https://www.onluxy.com/blog/global-interracial-dating.html',
 		bannerText,
 		material: {
 			title: 'Global Dating',
@@ -31,7 +31,7 @@ With Luxy we are open for all, whether that’s anything from an interracial rel
 	},
 	SENIOR: {
 	    name: 'senior',
-		link: '',
+		link: 'https://www.onluxy.com/blog/senior-dating.html',
 		bannerText,
 	    material: {
 	        title: 'All Age Dating',
@@ -52,7 +52,7 @@ You are the people everyone else aspires to be! Join Luxy For Free Today!
 	},
 	ELITE: {
 	    name: 'elite',
-		link: '',
+		link: 'https://www.onluxy.com/blog/elite-dating.html',
 		bannerText,
 	    material: {
 	        title: 'Elite Dating',
@@ -72,7 +72,7 @@ High-end dating has never been better, use Luxy today!
 	},
 	FUN: {
 	    name: 'fun',
-		link: '',
+		link: 'https://www.onluxy.com/blog/fun-dating.html',
 		bannerText,
 	    material: {
 	        title: 'Fun Dating',
@@ -90,7 +90,7 @@ Luxy has you covered with a huge array of people ready to enjoys life’s luxuri
 	},
 	RICH: {
 	    name: 'rich',
-		link: '',
+		link: 'https://www.onluxy.com/blog/millionaire-dating.html',
 		bannerText,
 	    material: {
 	        title: 'Rich and Wealthy Dating',
@@ -108,7 +108,7 @@ Join Luxy today, get income verified at over $200k per year and that elite datin
 	},
 	GOAL: {
 	    name: 'goal',
-		link: '',
+		link: 'https://www.onluxy.com/blog/dating-goals.html',
 		bannerText,
 	    material: {
 	        title: 'Goal Orientated Dating',

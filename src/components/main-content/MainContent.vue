@@ -13,14 +13,22 @@
     </div>
     <div class="main-content__wrap-right">
       <div class="download__wrap">
-        <div class="download__wrap-title">
-          <p>DOWNLOAD LUXY APP</p>
-          <span class="download__wrap-title-line"></span>
-        </div>
-        <div class="download__wrap-image"></div>
+        <a href="https://www.onluxy.com/#download-section">
+          <div class="download__wrap-title">
+            <p>DOWNLOAD LUXY APP</p>
+            <span class="download__wrap-title-line"></span>
+          </div>
+          <div class="download__wrap-image"></div>
+        </a>
       </div>
       <div class="sign__wrap">
-        <button class="sign__wrap-btn">Join Luxy Now</button>
+        <a href="https://py.onluxy.com/sign.html#/sign_page">
+          <p class="sign__wrap-text">
+            HIGH-END<br>
+            <span class="big">MEET UP</span>
+          </p>
+          <button class="sign__wrap-btn">Join Luxy Now</button>
+        </a>
       </div>
     </div>
   </div>
@@ -49,7 +57,7 @@
     font-weight: 400;
     font-style: normal;
   }
-  
+
   .main-content__wrap {
     width: 1196px;
     height: 1079px;
@@ -63,22 +71,22 @@
       padding: 52px 56px;
       width: 906px;
       box-shadow: 0 8px 20px 0 rgba(224, 224, 224, 0.5);
-	  font-family: Lusitana;
-	  color: #666666;
+      font-family: Lusitana;
+      color: #666666;
       .content__wrap {
         .content__wrap-title {
           font-size: 40px;
-		  font-weight: bold;
-		  color: #313131;
+          font-weight: bold;
+          color: #313131;
         }
         .content__wrap-img {
-			margin-top: 30px;
+          margin-top: 30px;
         }
         .content__wrap-text {
-			margin-top: 30px;
-			font-size: 15px;
-			line-height: 24px;
-			font-family: globerregular_free;
+          margin-top: 30px;
+          font-size: 15px;
+          line-height: 24px;
+          font-family: globerregular_free;
         }
       }
     }
@@ -90,6 +98,11 @@
         margin-bottom: 40px;
         overflow: hidden;
         text-align: center;
+        a {
+          display: block;
+		  height: 100%;
+		  color: #313131;
+        }
         .download__wrap-title {
           height: 75px;
           font-size: 17px;
@@ -115,6 +128,23 @@
         height: 596px;
         position: relative;
         background: url(../../assets/imgs/img-sign.png) no-repeat 100% / cover;
+        a {
+          display: block;
+          height: 100%;
+        }
+        .sign__wrap-text {
+          text-align: center;
+          font-size: 35px;
+          color: #fff;
+          font-family: Lusitana;
+          position: absolute;
+          bottom: 116px;
+          width: 250px;
+          .big {
+            font-size: 41px;
+            line-height: 20px;
+          }
+        }
         .sign__wrap-btn {
           width: 196px;
           height: 48px;
