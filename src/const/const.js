@@ -1,8 +1,17 @@
 const bannerText = 'Luxy Brings Elite and Attractive Singles Who Share the Same Interests Together'
+/**
+ * 0: elite
+ * 1: fun
+ * 2: global
+ * 3: goal
+ * 4: rich
+ * 5: senior
+ */
 
 export default {
 	GLOBAL: {
 		name: 'global',
+		link: '',
 		bannerText,
 		material: {
 			title: 'Global Dating',
@@ -18,11 +27,12 @@ So, whether you’re off for an Asian adventure! Or maybe spending six months on
 <br>
 With Luxy we are open for all, whether that’s anything from an interracial relationship to a long-distance relationship and beyond. By using Luxy you can rest assured that your high-quality elite match is only a few swipes away.
 `
-		}
+		},
 	},
 	SENIOR: {
 	    name: 'senior',
-	    bannerText,
+		link: '',
+		bannerText,
 	    material: {
 	        title: 'All Age Dating',
 	        img: require('../assets/imgs/senior.png'),
@@ -38,11 +48,12 @@ For us at Luxy, anyone who gets accepted is in their prime no matter the age –
 You are the people everyone else aspires to be! Join Luxy For Free Today!
 
 `
-	    }
+		},
 	},
 	ELITE: {
 	    name: 'elite',
-	    bannerText,
+		link: '',
+		bannerText,
 	    material: {
 	        title: 'Elite Dating',
 	        img: require('../assets/imgs/elite.png'),
@@ -57,11 +68,12 @@ Come and join the exclusive Luxy community and match with your fellow high - net
 <br>
 High-end dating has never been better, use Luxy today!
 `
-	    }
+		},
 	},
 	FUN: {
 	    name: 'fun',
-	    bannerText,
+		link: '',
+		bannerText,
 	    material: {
 	        title: 'Fun Dating',
 	        img: require('../assets/imgs/fun.png'),
@@ -74,11 +86,12 @@ Looking for a fun date to take to a Broadway show during your business trip to N
 Luxy has you covered with a huge array of people ready to enjoys life’s luxuries to the fullest.
 
 `
-	    }
+		},
 	},
 	RICH: {
 	    name: 'rich',
-	    bannerText,
+		link: '',
+		bannerText,
 	    material: {
 	        title: 'Rich and Wealthy Dating',
 	        img: require('../assets/imgs/rich.png'),
@@ -91,11 +104,12 @@ The unique Luxy Income verification process guarantees the wealth of our users. 
 Join Luxy today, get income verified at over $200k per year and that elite dating match you deserve for all your hard work is just a few clicks away!
 
 `
-	    }
+		},
 	},
 	GOAL: {
 	    name: 'goal',
-	    bannerText,
+		link: '',
+		bannerText,
 	    material: {
 	        title: 'Goal Orientated Dating',
 	        img: require('../assets/imgs/goal.png'),
@@ -106,8 +120,7 @@ Want to find a travel partner to explore the world or to be a cute couple and ta
 <br>
 <br>
 On Luxy the only limit is you, tell us your ideal partner and you will find that special someone with the same ambitions as you! Your ideal romance is only a few taps away with Luxy Dating!
-
 `
-	    }
+		},
 	}
 }

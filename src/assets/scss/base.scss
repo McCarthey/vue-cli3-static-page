@@ -1,1 +1,13 @@
 $mainColor: #CDA777;
+$borderMainColor: #D1AE82;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Lusitana:400,700|Vollkorn:400,700');
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+button {
+	border: 0;
+	cursor: pointer;
+}

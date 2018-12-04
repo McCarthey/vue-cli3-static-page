@@ -1,6 +1,7 @@
 const path = require('path')
 const PrerenderSPAPlugin = require('prerender-spa-plugin')
 const QiniuPlugin = require('qiniu-webpack-plugin')
+const gConfig = require('./config.js')
 const env = process.env.NODE_ENV
 
 module.exports = {
@@ -47,9 +48,9 @@ module.exports = {
     configureWebpack: config => {
         if (env === 'production') {
             config.plugins.push(new QiniuPlugin({
-                    ACCESS_KEY: 'gUj40toJvkFqlAHxWuegsy1tWq6C7yzPzxCvKiBs',
-                    SECRET_KEY: 'nr8QO7TDfQJIslWtLeW1NLYnKWjKtwLONDfd4RDb',
-                    bucket: 'spacdn',
+                    ACCESS_KEY: gConfig.QN_ACCESS_KEY,
+                    SECRET_KEY: gConfig.QN_SECRET_KEY,
+                    bucket: gConfig.QN_BUCKET,
                     path: '',
                     include: [
                         // 避免上传html
@@ -75,6 +76,6 @@ module.exports = {
             // 为开发环境修改配置...
         }
     },
-    baseUrl: env === 'production' ? 'https://spacdn.hellobyebye.com/' : '',
+    baseUrl: env === 'production' ? gConfig.baseUrl : '',
     assetsDir: env === 'production' ? 'static' : ''
 }

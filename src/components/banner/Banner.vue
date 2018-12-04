@@ -1,6 +1,6 @@
 <template>
 	<div class="luxy-banner__wrap" :class="bgType">
-		
+		<p class="luxy-banner__wrap-text">{{ bannerText }}</p>
 	</div>
 </template>
 
@@ -9,6 +9,7 @@ export default {
 	name: 'Banner',
 	props: {
 		imgType: String,
+		bannerText: String
 	},
 	computed: {
 		bgType() {
@@ -45,24 +46,33 @@ export default {
 .luxy-banner__wrap {
 	width: 100%;
 	height: 420px;
+	color: #fff;
+	text-align: center;
+	padding-top: 110px;
+	.luxy-banner__wrap-text {
+		font-size: 30px;
+		font-family: Lusitana;
+		max-width: 776px;
+		margin: 0 auto;
+	}
 }
 .luxy-banner__wrap-global {
-	background: url(../../assets/imgs/global.png) no-repeat center/cover;
+	background: url(../../assets/imgs/bg-global.png) no-repeat center/cover;
 }
 .luxy-banner__wrap-elite {
-	background: url(../../assets/imgs/elite.png) no-repeat center/cover;
+	background: url(../../assets/imgs/bg-elite.png) no-repeat center/cover;
 }
 .luxy-banner__wrap-fun {
-	background: url(../../assets/imgs/fun.png) no-repeat center/cover;
+	background: url(../../assets/imgs/bg-fun.png) no-repeat center/cover;
 }
 .luxy-banner__wrap-goal {
-	background: url(../../assets/imgs/goal.png) no-repeat center/cover;
+	background: url(../../assets/imgs/bg-goal.png) no-repeat center/cover;
 }
 .luxy-banner__wrap-rich {
-	background: url(../../assets/imgs/rich.png) no-repeat center/cover;
+	background: url(../../assets/imgs/bg-rich.png) no-repeat center/cover;
 }
 .luxy-banner__wrap-senior {
-	background: url(../../assets/imgs/senior.png) no-repeat center/cover;
+	background: url(../../assets/imgs/bg-senior.png) no-repeat center/cover;
 }
 </style>
 
