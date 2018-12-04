@@ -44,32 +44,38 @@
         {
           title: CONST.GLOBAL.material.title,
           img: CONST.GLOBAL.material.img,
-          name: CONST.GLOBAL.name
+		  name: CONST.GLOBAL.name,
+		  link: CONST.GLOBAL.link,
         },
         {
           title: CONST.ELITE.material.title,
           img: CONST.ELITE.material.img,
-          name: CONST.ELITE.name
+		  name: CONST.ELITE.name,
+		  link: CONST.ELITE.link,
         },
         {
           title: CONST.SENIOR.material.title,
           img: CONST.SENIOR.material.img,
-          name: CONST.SENIOR.name
+		  name: CONST.SENIOR.name,
+		  link: CONST.SENIOR.link,
         },
         {
           title: CONST.FUN.material.title,
           img: CONST.FUN.material.img,
-          name: CONST.FUN.name
+		  name: CONST.FUN.name,
+		  link: CONST.FUN.link,
         },
         {
           title: CONST.GOAL.material.title,
           img: CONST.GOAL.material.img,
-          name: CONST.GOAL.name
+		  name: CONST.GOAL.name,
+		  link: CONST.GOAL.link,
         },
         {
           title: CONST.RICH.material.title,
           img: CONST.RICH.material.img,
-          name: CONST.RICH.name
+		  name: CONST.RICH.name,
+		  link: CONST.RICH.link,
         }
       ]
     }),
