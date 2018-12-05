@@ -7,8 +7,8 @@
 					<p class="title fs16">Find Your Match</p>
 					<p class="description fs14">
 						<!-- <a class="fs14" href="https://millionairedating.onluxy.com/9-interracial-relationship-advices-from-an-asian-girl-who-dated-a-white-guy.html">Interracial dating advice</a>-->
-						<a class="fs14 link" href="https://www.onluxy.com/thebest/seattle-singles-online-speed-dating-site.html">Seattle Singles Dating</a>
-						<a class="fs14 link" href="https://www.onluxy.com/thebest/boston-singles-online-speed-dating-site.html">Boston Singles Dating</a>
+						<!-- <a class="fs14 link" href="https://www.onluxy.com/thebest/seattle-singles-online-speed-dating-site.html">Seattle Singles Dating</a> -->
+						<!-- <a class="fs14 link" href="https://www.onluxy.com/thebest/boston-singles-online-speed-dating-site.html">Boston Singles Dating</a> -->
 						<a class="fs14 link" href="https://millionairedating.onluxy.com/millionaire-club-luxy-has-launched-brand-new-feature-promo-codes.html">Luxy Promo Code</a>
 					</p>
 					</Col>
@@ -23,19 +23,19 @@
 					<div class="links" style="width: 100%;">
 						<p class="title fs16">Community</p>
 						<a class="fs14 link" href="https://millionairedating.onluxy.com/">Millionaire Dating Tips</a>
-						<a class="fs14 link" :href="`${gBaseUrl}/page?path=lovestory`">Love Story</a>
-						<!-- <a class="fs14" :href="`${gBaseUrl}/page?path=moment-hot`">Moments</a>
+						<a class="fs14 link" href="https://www.onluxy.com/page?path=lovestory">Love Story</a>
+						<!-- <a class="fs14" href="https://www.onluxy.com/page?path=moment-hot">Moments</a>
                         <a class="fs14" href="/millionaire-dating-in">User Map</a> -->
 					</div>
 					</Col>
 					<Col span="4">
 					<div class="links">
 						<p class="title fs16">Company</p>
-						<a class="fs14 link" rel="nofollow" :href="`${gBaseUrl}/page?path=support`">Contact</a>
-						<a class="fs14 link" :href="`${gBaseUrl}/page?path=faq`">FAQ</a>
-						<a class="fs14 link" rel="nofollow" href="/affiliate">Affiliate</a>
-						<a class="fs14 link" rel="nofollow" :href="`${gBaseUrl}/page?path=safety`">Safety</a>
-						<!-- <a class="fs14" :href="`${gBaseUrl}/page?path=press`">Press</a> -->
+						<a class="fs14 link" rel="nofollow" href="https://www.onluxy.com/page?path=support">Contact</a>
+						<a class="fs14 link" href="https://www.onluxy.com/page?path=faq">FAQ</a>
+						<a class="fs14 link" rel="nofollow" href="https://www.onluxy.com/affiliate">Affiliate</a>
+						<a class="fs14 link" rel="nofollow" href="https://www.onluxy.com/page?path=safety">Safety</a>
+						<!-- <a class="fs14" href="https://www.onluxy.com/page?path=press">Press</a> -->
 						<!-- <a class="fs14 bitcoins" href="javascript:;"><img style="width:15px;vertical-align: sub;height: 15px;" src="static/images/bit_coins.png" alt=""> We accept Bitcoin</a>&nbsp;&nbsp;&nbsp;&nbsp; -->
 					</div>
 					</Col>
@@ -63,8 +63,8 @@
 					</Col>
 					<Col span="4">
 					<p class="links fs14">
-						<a rel="nofollow" :href="`${gBaseUrl}/page?path=terms`">Terms</a>&nbsp;&nbsp;&nbsp;&nbsp;
-						<a rel="nofollow" :href="`${gBaseUrl}/page?path=privacy`">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;
+						<a rel="nofollow" href="https://www.onluxy.com/page?path=terms">Terms</a>&nbsp;&nbsp;&nbsp;&nbsp;
+						<a rel="nofollow" href="https://www.onluxy.com/page?path=privacy">Privacy</a>&nbsp;&nbsp;&nbsp;&nbsp;
 					</p>
 					</Col>
 				</Row>

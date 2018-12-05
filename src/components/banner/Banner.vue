@@ -63,7 +63,7 @@ export default {
 	background: url(../../assets/imgs/bg-elite.png) no-repeat center/cover;
 }
 .luxy-banner__wrap-fun {
-	background: url(../../assets/imgs/bg-fun.png) no-repeat center/cover;
+	background: url(../../assets/imgs/bg-fun.jpg) no-repeat center/cover;
 }
 .luxy-banner__wrap-goal {
 	background: url(../../assets/imgs/bg-goal.png) no-repeat center/cover;

@@ -60,10 +60,10 @@ You are the people everyone else aspires to be! Join Luxy For Free Today!
 	        text: `Find elite and exclusive singles on the world’s no #1 executive dating site.
 <br>
 <br>
-More than half of our VIP community are valued at over $200K annually with 40 % valued at above $1M.If you are a verified Millionaire, you can find your ideal match with Luxy knowing that your match has gone through the same extensive vetting process.
+More than half of our VIP community are valued at over $200K annually with 40 % valued at above $1M. If you are a verified Millionaire, you can find your ideal match with Luxy knowing that your match has gone through the same extensive vetting process.
 <br>
 <br>
-Come and join the exclusive Luxy community and match with your fellow high - net worth millionaires to start your adventure of the best dating has to offer.
+Come and join the exclusive Luxy community and match with your fellow high-net-worth millionaires to start your adventure of the best dating has to offer.
 <br>
 <br>
 High-end dating has never been better, use Luxy today!
@@ -76,7 +76,7 @@ High-end dating has never been better, use Luxy today!
 		bannerText,
 	    material: {
 	        title: 'Fun Dating',
-	        img: require('../assets/imgs/fun.png'),
+	        img: require('../assets/imgs/fun.jpg'),
 	        text: `Whatever your dating goal Luxy has you covered. Flirt? Seeking romance? Want to find your soulmate? You’ll find your match on Luxy.
 <br>
 <br>
